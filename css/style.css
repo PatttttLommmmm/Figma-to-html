@@ -108,3 +108,61 @@ nav ul li a{
     text-decoration: none;
     padding: .5rem 1.5rem;
 }
+
+.powerful{
+    background: #fff;
+}
+
+.powerful-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.powerful-info{
+    margin-top: 160px;
+    width: 540px;
+    /* border: 1px solid red; */
+}
+
+.pw-title h2{
+    font-size: 36px;
+    margin-bottom: 1rem;
+}
+
+.pw-p p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #6F7CB2;
+}
+
+.pw-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.pw-item{
+    width: 255px;
+    /* border: 1px solid red; */
+}
+
+.pw-item h3{
+    font-size: 16px;
+    color: #091133;
+    margin: .5rem 0;
+}
+
+.pw-item p{
+    font-size: 12px;
+    line-height: 18px;
+    color: #5d6970;
+}
+
+.powerful-img{
+    width: 540px;
+}
+
+.powerful-img img{
+    width: 100%;
+    margin-top: 100px;
+}
