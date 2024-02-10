@@ -111,6 +111,11 @@ nav ul li a{
 
 .powerful{
     background: #fff;
+    border-bottom-left-radius: 100% 100px;
+    border-bottom-right-radius: 100% 100px;
+    /* border: 1px solid red; */
+    z-index: 99;
+    position: relative;
 }
 
 .powerful-con{
@@ -166,3 +171,148 @@ nav ul li a{
     width: 100%;
     margin-top: 100px;
 }
+
+.powerful-sec-con{
+    display: flex;
+    justify-content: space-between;
+    height: 570px;
+    align-items: center;
+    /* border: 1px solid red; */
+} 
+
+.pw-left{
+    width: 540px;
+}
+
+.pw-left img{
+    width: 100%;
+}
+
+.pw-right{
+    width: 445px;
+}
+
+.pw-right h3{
+    font-size: 36px;
+    color: #091133;
+    margin-bottom: 1rem;
+}
+
+.pw-right p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #6F7CB2;
+    margin-bottom: 40px;
+}
+
+.price{
+    background: #E7ECFF;
+    height: 800px;
+    margin-top: -4rem;
+    padding: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.price-info{
+    width: 600px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.price-info h2{
+    font-size: 36px;
+    margin-bottom: 1rem;
+    color: #091133;
+}
+
+.price-info p{
+    color: #6F7CB2;
+    line-height: 26px;
+}
+
+.fourty{
+    margin: 3rem 0 ;
+    text-align: center;
+}
+
+.fourty .number{
+    display: block;
+    font-weight: bold;
+    font-size: 50px;
+    color: #222f65;
+}
+
+.fourty .text{
+    color: #37447E;
+}
+
+.price-btm{
+    text-align: center;
+}
+
+.price-btm .price-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #111B47;
+    padding: .5rem 3rem;
+    border-radius: 2px;
+    margin-top: .5rem;
+}
+
+footer{
+    background: #d0d9fc;
+    height: 220px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    height: 140px;
+    border-bottom: 1px solid #cdd1dc;
+    align-items: center;
+}
+
+.footer-top h2{
+    color: #37447E;
+}
+
+.footer-top .buynow{
+    width: 160px;
+    background: #111B47;
+    height: 26px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer-bottom{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btm-menu , .social{
+    display: flex;
+    list-style: none;
+}
+
+.btm-menu li{
+    margin-right: 60px;
+}
+
+.social li{
+    margin-left: 35px;
+}
+
+.btm-menu li a , .social li a{
+    text-decoration: none;
+    color: #6F7CB2;
+}
+
